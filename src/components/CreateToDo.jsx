@@ -20,7 +20,7 @@ const CreateToDo = ({ onCreate }) => {
                 type="text" 
                 value={description} 
                 onChange={(e) => setName(e.target.value)} 
-                placeholder="New ToDo" 
+                placeholder="Type your todo here..." 
             />
             <button type="submit">Add</button>
         </form>
