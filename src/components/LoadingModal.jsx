@@ -8,7 +8,7 @@ const LoadingModal = () => {
     };
 
     useEffect(() => {
-        const timer = setTimeout(() => setShow(false), 12000);
+        const timer = setTimeout(() => setShow(false), 10000);
         return () => clearTimeout(timer);
     }, []);
 
